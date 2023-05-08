@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="student_2_css/comments.css">
+    <link rel="stylesheet" href="student_2_css/hedder_and_footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!--link for the fb,tw,in icons-->
+    <link rel="icon" type="image/png" href="student_2_img/logo.png">
+    <title>Comments page Msick.lk</title>
+    <script defer src="student_2_js/comments.js"></script>
+
+    
+</head>
+<body>
+    <!--Navigation bar with the logo-->
+    <header id="header">
+        <img class="logo" src="student_2_img/logo.png" alt="logo">
+        <h1 style="color: rgb(29, 244, 248); font-size: 35px; padding-right: 300px;letter-spacing: .3rem;font-family:'Times New Roman', Times, serif;">M sick.lk</h1>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="home.html">Home</a></li>
+              <li><a href="comments.html">Comments</a></li>
+              <li><a href="w1953846_buy_products.html">Shop</a></li>
+              <li><a href="w1954031_Quiz.html">Quiz</a></li>
+              <li><a href="Sitemap.html">Sitemap</a></li>
+              <li><a href="imagegallery.html">Gallery</a></li>
+              <li><a href="w1954031_Studentdetails.html">About us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br><br>
+    <form name="form" action="button.html" onsubmit="return validation()">
+        <div class="q1">
+            
+            <p>How satisfied were you with our website today? Choose from o to 10, where 0 is extremely dissatisfied and 10 is extremely satisfied.</p>
+            <div class="radio">
+                 <input type="radio" name="rating" id="1" value="1"><label>1</label>
+                 <input type="radio" name="rating" id="2" value="1" style="margin: 20px;"><label>2</label>
+                 <input type="radio" name="rating" id="3" value="1" style="margin: 20px;"><label>3</label>
+                 <input type="radio" name="rating" id="4" value="1" style="margin: 20px;"><label>4</label>
+                 <input type="radio" name="rating" id="5" value="1" style="margin: 20px;"><label>5</label>
+                 <input type="radio" name="rating" id="6" value="1" style="margin: 20px;"><label>6</label>
+                 <input type="radio" name="rating" id="7" value="1" style="margin: 20px;"><label>7</label>
+                 <input type="radio" name="rating" id="8" value="1" style="margin: 20px;"><label>8</label>
+                 <input type="radio" name="rating" id="9" value="1" style="margin: 20px;"><label>9</label>
+                 <input type="radio" name="rating" id="10" value="1" style="margin: 20px;"><label>10</label>
+            </div>
+           
+
+        </div>
+        <br><br>
+        <div class="q2">
+            <p><label>Please could you tell us youe reasons for giving this rating?</label></p>
+            <div>
+                <textarea id="text" name="text" rows="4" style="width: 100%;"></textarea>
+            </div>
+            <br><br>
+        </div>
+        <br><br>
+        <div class="q3">
+            <P><label>How did you want to complete this task today?(optional)</label></P>
+            <select name="divice1" id="option1" >
+                <option>--Please Select--</option>
+                <option value="Phone">Phone</option>
+                <option value="website">website</option>
+                <option value="Webchat">Webchat</option>
+                <option value="Social media">Social media</option>
+                <option value="Email">Email</option>
+            </select>
+            <br><br>
+        </div>
+        <br><br>
+        <div class="q4">
+            <P><label>If you had to complete this task again, how would you prefer to do it? (optional)</label></P>
+            <select name="divice2" id="option2" >
+                <option>--Please Select--</option>
+                <option value="Phone">Phone</option>
+                <option value="website">website</option>
+                <option value="Webchat">Webchat</option>
+                <option value="Social media">Social media</option>
+                <option value="Email">Email</option>
+            </select>
+            <br><br>
+        </div>
+        <div class="button">
+            <br>
+            <button type="submit" class="submit" value="submit">Submit</button>
+        </div>
+    </form>
+    <!--Footer-->
+    <footer class="footer">
+        <div class="col-1">
+            <div id="title">
+                <h2>M sick.lk</h2>
+                <p>Music is life itself!</p>
+            </div>
+
+            <br>
+            <div id="address">
+                <h3>M sick.lk</h3>
+                <p>57, Ramakrishna Road</p>
+                <p>Colombo 06, Sri Lanka</p>
+            </div>
+        </div>
+        <div class="col-2">
+            <h2>Developer of the page</h2>
+            <a href="student_2_editor.html">Avishka Eranda</a>
+            <p>Contact dev</p>
+            <p>No: 077-9929292</p>
+            <p>email:avishka@gmail.com</p>
+        </div>
+        <div class="col-3">
+            <h2>Contact us by</h2>
+            <div class="fb">
+                <a href="#" class="fa fa-facebook"></a>
+                <p>Facebook</p>
+                
+            </div>
+            <div class="tw">
+                <a href="#" class="fa fa-twitter"></a>
+                <p>Twiter</p>
+            </div>
+            
+            <div class="in">
+                <a href="#" class="fa fa-instagram"></a>
+            <p>Instagram</p>
+  
+            </div>
+            <h3 style="color: azure;"><a href="#header">Back to top</a></h3>
+        </div>
+    </footer>
+    
+    
+</body>
+</html>

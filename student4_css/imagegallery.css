@@ -1,0 +1,302 @@
+body, html {
+    background-color: rgba(62, 53, 231, 0.252);
+    margin: 0;
+}
+
+.image{
+    height: 650px;
+    width: 100%;
+}
+
+#quote{
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+    margin-top: -1px;
+}
+
+.images{
+    background-color: rgba(255, 255, 255, 0.771);
+    width: 250px;
+    height: 400px;
+    float: left;
+    margin: 0px 30px 50px 0;
+    border-radius: 30px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1), 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+.images:hover{
+    transition: 0.6s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 18px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(134, 138, 247);
+}
+
+.description{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    padding-top: 10px;
+    height: 120px;
+    position: relative;
+}
+
+
+.pic:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    filter: contrast(100%);
+}
+
+.pic{
+    transition: transform .4s;
+    height: 300px;
+    width: 250px;
+    filter: contrast(80%);
+}
+
+.imgarea{
+    height: 300px;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.categary{
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(33, 31, 36);
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(15, 9, 103, 0.901);
+    font-size: 60px;
+}
+
+
+.artists{  
+    display: flex;
+    justify-content: center;
+}
+
+.py{
+    clear: both;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #000000d8;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #0000002e;
+    margin: auto;
+    margin-top: -50px;
+    padding: 0;
+    width: 70%;
+    height: 600px;
+    max-width: 1200px;
+}
+
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pic2{
+    width: 50%;
+    height: 600px;
+    float: left;
+}
+
+.desc{
+    backface-visibility: hidden;
+    text-align:center;
+    color: white;
+    font-size: xx-large;
+}
+
+.desc2{
+    text-align: center;
+    color: white;
+    font-size: large;
+    line-height: 1.6;
+}
+
+.bt1,.bt2,.bt3{
+    margin-right: 0%;
+    background-color: rgb(244, 244, 244);
+}
+
+.bt1{
+    font-size: 15px;
+}
+.bt2{
+    font-size: 20px;
+}
+.bt3{
+    font-size: 25px;
+}
+
+.colr1,.colr2,.colr3,.colrrandom{
+    margin-right: 0%;
+    height: 30px;
+    width: 25px;
+
+}
+
+.colr1{
+    background-color: #fca5f0;
+}
+
+.colr2{
+    background-color: rgb(128, 122, 251);
+}
+
+.colr3{
+    background-color: #a1fa9f;
+}
+
+.colrrandom{
+    margin-right: 5px;
+    background-color: rgb(128, 122, 251);
+    font-weight: 600;
+}
+
+.btns{
+    display: flex;
+    justify-content: right;
+    margin-right: 10px;
+}
+
+.colrs{
+    display: flex;
+    justify-content: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+
+.banner1{
+    animation: slide1 12s linear infinite; 
+}
+.banner2{
+    animation: slide2 12s linear infinite;
+}
+.banner3{
+    animation: slide3 12s linear infinite;
+}
+
+.banner4{
+    animation: slide4 12s linear infinite;
+}
+
+.banner1,.banner2,.banner3,.banner4{
+    position: absolute;
+    width: 100%; 
+}
+
+@keyframes slide1 {
+    0%{
+        visibility: visible;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+    75%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+}
+
+@keyframes slide2 {
+    0%{
+        visibility: hidden;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: visible;
+    }
+    75%{
+        visibility: hidden ;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+
+@keyframes slide3 {
+    0%{
+        visibility: hidden;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+    75%{
+        visibility: visible;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+
+
+@keyframes slide4 {
+    0%{
+        visibility: hidden;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility:hidden;
+    }
+    75%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+}
+
+.container{
+    padding-top: 20px;
+}
+
+.img{
+    width: 100%; 
+    height: 600px;
+}
+
+.cmd{
+    height: 30px;
+    width: 100%;
+    background-color: #585555;
+    margin-top: 600px;
+}

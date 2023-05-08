@@ -1,0 +1,32 @@
+body{
+    background-image: url(student_2_img/pexels-andrea-piacquadio-3771842.jpg);
+    background-size: cover;
+}
+.welcome h1{
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+}
+.vision{
+    border: solid;
+    text-align: center;
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: rgba(255, 255, 255, 0.5);
+    
+}
+
+
+.vision h2 {
+    font-size: 40px;
+    color: rgb(7, 3, 69);
+}
+ .vision p {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}

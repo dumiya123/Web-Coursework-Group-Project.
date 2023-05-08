@@ -1,0 +1,90 @@
+*
+{
+    margin-top: 0px;
+    padding: 0px;
+    font-family:'Poppins', 'sans-serif';
+}
+body
+{
+    background-attachment: fixed;    /* fix the background. now background image is not going to scroll*/
+    background-position: center;     /* center the background image */
+    background-image:linear-gradient(rgba(50, 2, 182, 0.364),rgba(4, 59, 131, 0.5)),url("Student03_imgs/violin1.jpg");  /* adding a linear gradiant*/ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:GhostWhite;
+    text-align:center;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    
+
+}
+.name
+{
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(16, 249, 198);
+    
+    
+    
+}
+.student
+{
+    text-align:center;
+}
+.role
+{
+    text-align:center;
+    color:rgb(0, 255, 21);
+    font-size:large;
+}
+.list1
+{
+    text-align:center;
+    list-style-type:none;
+    color:rgb(238, 221, 188);
+}
+.task
+{
+    text-align:center;
+    color:yellow;
+    font-size: larger;
+}
+.list2
+{
+    text-align:center;
+    list-style-type:none;
+    color:rgb(238, 221, 188);
+}
+.box
+{
+    width:60%;
+    border-radius: 30px;
+    background: rgba(0,0,0,.6);
+    padding:40px;
+    margin:auto;
+    margin-top: 5%;
+    color:white;
+}
+
+img
+{
+    text-align:center;
+}
+.img1{
+    box-shadow: 10px 0px 30px rgb(184, 43, 231);
+}
+.btons a
+{
+    text-decoration:none;
+    text-decoration: solid;
+}
+.btons input
+{
+    border: 3px solid rgb(255, 0, 0);
+    padding: 10px 35px;
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-left: 0%;
+    margin-bottom: 4%;
+}

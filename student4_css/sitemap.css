@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+}
+
+.site{
+    text-align: center;
+    margin-left: 60px;
+    color: rgba(3, 193, 189, 0.989);
+    font-family: Moderne Sans,sans-serif;
+    font-size: 50px;
+    letter-spacing: 4rem;
+}
+
+.image{
+    background-image: url('../sitemap_images/danny-howe-bn-D2bCvpik-unsplash.jpg');
+    background-color: rgb(33, 46, 82);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.col{
+    align-items: center;
+}
+
+a:hover circle{
+    fill: rgb(101, 255, 114);
+    stroke-width: 7;
+}
+
+text:hover{
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(88, 88, 154);
+}
+
+text{
+    font-weight: 600;
+}

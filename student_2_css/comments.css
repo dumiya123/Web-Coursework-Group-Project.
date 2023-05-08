@@ -1,0 +1,66 @@
+.button {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+  }
+
+.q1 {
+    border-style: groove;
+    border-radius: 12px;
+    padding: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgb(255, 255, 255);
+   
+}
+.q2 {
+  border-style: groove;
+  border-radius: 12px;
+  padding: 5px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: rgb(255, 255, 255);
+    
+}
+.q3 {
+  border-style: groove;
+  border-radius: 12px;
+  padding: 5px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: rgb(255, 255, 255);
+
+    
+}
+.q4 {
+  border-style: groove;
+  border-radius: 12px;
+  padding: 5px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: rgb(255, 255, 255);
+  
+}
+.radio{
+  margin-left: 20px;
+  
+  
+}
+body{
+  background-image: url(student_2_img/back1.jpg);
+  background-size:cover;
+}
+.submit{
+  padding: 5px 10px;
+  background: #fff;
+  border: 0;
+  outline:none;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 30px;
+}
+form{
+  font-family:Comic Sans MS, Comic Sans, cursive ;
+  font-size: 20px;
+}

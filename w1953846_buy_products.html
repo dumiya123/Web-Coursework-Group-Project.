@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Products</title>
+    <link rel="stylesheet" href="w1953846_buy_products.css">
+    <link rel="stylesheet" href="header_and_footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!--link for the fb,tw,in icons-->
+    <script type="text/javascript" src="js/w1953846_buy_products_page_controller.js" defer></script>
+</head>
+
+<body id="slide_background_image">
+    <!--preloading all background images already to ensure seamless transitions-->
+    <div id="preload">
+        <img src="images/first.jpg" alt="Image 1">
+        <img src="images/second.jpg" alt="Image 2">
+        <img src="images/third.jpg" alt="Image 3">
+        <img src="images/fourth.jpg" alt="Image 4">
+        <img src="images/fifth.jpg" alt="Image 5">
+        <img src="images/backdrop_11.jpg" alt="Image 6">
+        <img src="images/sick.jpg" alt="Image 7">
+    </div>
+
+<!--this is the navigation bar-->
+    <!--Navigation bar with the logo-->
+    <header id="header">
+        <img class="logo" src="student_2_img/logo.png" alt="logo">
+        <h1 style="color: rgb(29, 244, 248); font-size: 35px; padding-right: 300px;letter-spacing: .3rem;font-family:'Times New Roman', Times, serif;" >M sick.lk</h1>
+
+        <nav>
+            <ul class="nav_links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="comments.html">Comments</a></li>
+                <li><a href="w1953846_buy_products.html">Shop</a></li>
+                <li><a href="w1954031_Quiz.html">Quiz</a></li>
+                <li><a href="sitemap.html">Sitemap</a></li>
+                <li><a href="imagegallery.html">Gallery</a></li>
+                <li><a href="w1954031_Studentdetails.html">About us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+<!--this is the navigation bar-->  
+
+<!--Quality products Section Starts Here-->
+<section class="quality_products">
+    <div class="container">
+        <h2 class="text-center"><i>Explore Our Quality Products.</i></h2>
+
+        <a href="#Violin">
+        <div class="box-3 float-container">
+            <img src="images/product1remake.jpg" alt="Lark Violin" class="img-responsive img-curve">
+            <h3 class="float-text text-white container1_text_align">Lark Violin</h3>
+        </div></a>
+
+        <a href="#Guitar">
+        <div class="box-3 float-container">
+            <img src="images/product2.jpg" alt="Box Guitar" class="img-responsive img-curve">
+            <h3 class="float-text text-white container2_text_align">Wooden Guitar</h3>
+        </div></a>
+
+        <a href="#Flutes">
+        <div class="box-3 float-container">
+            <img src="images/productnew4.jpg" alt="Wooden Flute " class="img-responsive img-curve">
+            <h3 class="float-text text-white container3_text_align"> Flutes </h3>
+        </div></a>
+
+        <div class="clearfix"></div>
+    </div>
+</section>
+<!--Quality priducts Section ends here-->
+
+    <!--products navigation bar starts here-->
+    <div id="product_nav" class="products_nav_bar">
+        <ul class="product_list">
+            <li><a class="active" href="#Violins">Violins</a></li>
+            <li><a href="#Guitar">Guitar</a></li>
+            <li><a href="#Flutes">Flutes</a></li>
+            <li><a href="#keyboard">Keyboards</a></li>
+            <li><a href="#Drums">Drums</a></li>
+            <li><a href="#Trumpets">Trumpets</a></li>
+        </ul>
+    </div>
+    <div class="action_btns">
+        <ul>
+            <li><a href="#shopping_cart"><img src="images/cart.png" alt="Shopping Cart Icon"></a></li>
+            <li><a href="#personal_info"><img src="images/order.png" alt="personal details icon"></a></li>
+            <li><a href="#invoice_h2"><img src="images/bill.png" alt="Invoice"></a></li>
+        </ul>
+    </div>
+    <!--products navigation bar ends here-->
+
+    <!--Violins products showcase start here-->
+    <section class="products_list"><br><br><br>
+        <div class="container">
+            <h2 id="Violin" class="text-center">Violin<a href="#product_nav"><img src="images/up.png" alt="up icon"></a></h2>
+            
+            <div class="product-box">
+                <div class="product-img">
+                    <img src="images/violin1.jpg" alt="Violin image" class="img-responsive img-curve">
+                </div>
+
+                <div class="product-desc">
+                    <h4 class="product-name">Super Lark Violin 05 years Warranty</h4>
+                    <p class="product-price">$50 </p>
+                    <label for="amount" id="Product_1_Quantity">Quantity :</label>
+                    <input type="text" class="amount" name="amount">
+                    <label>Available : <span class="quantity">500</span></label>
+                    <p class="product-detail">Beginners, Kids & Adults - Most Popular Fast moving Violin Brand.</p>
+                    <br>
+                    <a class="order_now btn btn-primary">Order Now</a>
+                    <a class="add_to_cart btn btn-primary">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <div class="product-img">
+                    <img src="images/violin2.jpg" alt="Wooden violin" class="img-responsive img-curve">
+                </div>
+
+                <div class="product-desc">
+                    <h4 class="product-name">Matte Violins, 4/4 Violin Set Matte for<br> Vocal Performance</h4>
+                    <p class="product-price" id="Product_2_Quantity">$60</p>
+                    <label for="amount" >Quantity :</label>
+                    <input type="text" class="amount" name="amount">
+                    <label>Available : <span class="quantity">300</span></label>
+                    <p class="product-detail">High-Quality Beginner Violin.Made with high<br> quality materials.</p>
+                    <br>
+                    <a class="order_now btn btn-primary">Order Now</a>
+                    <a class="add_to_cart btn btn-primary">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <div class="product-img">
+                    <img src="images/violin3.png" alt="product 3" class="img-responsive img-curve">
+                </div>
+                <div class="product-desc">
+                    <h4 class="product-name"> CREMONA High Quality Violins</h4>
+                    <p class="product-price">$70</p>
+                    <label for="amount" id="Product_3_Quantity">Quantity :</label>
+                    <input type="text" class="amount" name="amount">
+                    <label>Available : <span class="quantity">200</span></label>
+                    <p class="product-detail">High-Quality Beginner Violin.Made with high<br> quality materials.</p>
+                    <br>
+                    <a class="order_now btn btn-primary">Order Now</a>
+                    <a class="add_to_cart btn btn-primary">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <div class="product-img">
+                    <img src="images/violin4.jpg" alt="product 4" class="img-responsive img-curve">
+                </div>
+
+                <div class="product-desc">
+                    <h4 class="product-name"> 5pcs Violin E Strings Replacement Steel for 3 / 4 and Size Violins</h4>
+                    <p class="product-price">$60 </p>
+                    <label for="amount" id="product_four_Quantity">Quantity :</label>
+                    <input type="text" class="amount" name="amount">
+                    <label>Available : <span class="quantity">250</span></label>
+                    <p class="product-detail">Superior Sound Quality: Our violin is crafted from the finest materials. </p>
+                    <br>
+                    <a class="order_now btn btn-primary">Order Now</a>
+                    <a class="add_to_cart btn btn-primary">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- Violin products showcase end here -->    
+
+    <!-- Flutes products showcase start here-->
+    <section class="products_list">
+        <div class="container">
+            <h2 id="Flutes" class="text-center">Flutes<a href="#product_nav"><img src="images/up.png" alt="up icon"></a></h2>
+
+            <div class="product-box">
+                <div class="product-img">
+                    <img src="images/flute1.jpg" alt="Steel Flute" class="img-responsive img-curve">
+                </div>
+
+                <div class="product-desc">
+                    <h4 class="product-name">Glory Closed Hole C Flute With<br> Case.</h4>
+                    <p class="product-price">$30</p>
+                    <label for="amount" id="Quantity_for_Flute1">Quantity :</label>
+                    <input type="text" class="amount" name="amount">
+                    <label>Available : <span class="quantity">800</span></label>
+                    <p class="product-detail">Made with finest materials</p>
+                    <br>
+                    <a class="order_now btn btn-primary">Order Now</a>
+                    <a class="add_to_cart btn btn-primary">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <div class="product-img">
+                    <img src="images/flute2.jpg" alt="Wooden Flute" class="img-responsive img-curve">
+                </div>
+
+                <div class="product-desc">
+                    <h4 class="product-name">Corsaro Armenian Duduk (aka<br> Balaban) (Key G)</h4>
+                    <p class="product-price">$60</p>
+                    <label for="amount" id="Quantity_for_flute2">Quantity :</label>
+                    <input type="text" class="amount" name="amount">
+                    <label>Available : <span class="quantity">200</span></label>
+                    <p class="product-detail">Made from Made from high-quality materials. </p>
+                    <br>
+                    <a class="order_now btn btn-primary">Order Now</a>
+                    <a class="add_to_cart btn btn-primary">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <div class="product-img">
+                    <img src="images/flute3.jpg" alt="Wooden Flute" class="img-responsive img-curve">
+                </div>
+
+                <div class="product-desc">
+                    <h4 class="product-name">Wooden Flute Carved Wood Flute.<br>Easy to play and handle.</h4>
+                    <p class="product-price">$5 </p>
+                    <label for="amount"  id="Quantity_for_flute3">Quantity :</label>
+                    <input type="text" class="amount" name="amount">
+                    <label>Available : <span class="quantity">200</span></label>
+                    <p class="product-detail">Made with Finest Wood</p>
+                    <br>
+                    <a class="order_now btn btn-primary">Order Now</a>
+                    <a class="add_to_cart btn btn-primary">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <div class="product-img">
+                    <img src="images/flute4.jpg" alt="Plastic Flute" class="img-responsive img-curve">
+                </div>
+
+                <div class="product-desc">
+                    <h4 class="product-name"> CONJURER Soprano Recorder 8 Hole ABS<br> Clarinet German Style Treble Flutes C Key.</h4>
+                    <p class="product-price">$30</p>
+                    <label for="amount" id="Quantity_for_flute4">Quantity :</label>
+                    <input type="text" class="amount" name="amount">
+                    <label>Available : <span class="quantity">230</span></label>
+                    <p class="product-detail">Made from Made from high-quality materials.<br> elegant design.</p>
+                    <br>
+                    <a class="order_now btn btn-primary">Order Now</a>
+                    <a class="add_to_cart btn btn-primary">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- flutes products showcase end here -->
+
+    <!--Keyboard products showcase start here -->
+    <section class="products_list">
+        <div class="container">
+            <h2 id="keyboard" class="text-center">Keyboards<a href="#product_nav"><img src="images/up.png" alt="up icon"></a></h2>
+
+            <div class="product-box">
+                <div class="product-img">
+                    <img src="images/keyboard1.jpg" alt=" keyboard 1" class="img-responsive img-curve">
+                </div>
+
+                <div class="product-desc">
+                    <h4 class="product-name">RockJam 49 Key Keyboard Piano<br> with Power Supply, Sheet Music<br> Stand, Piano Note Stickers & Simply<br> Piano Lessons.</h4>
+                    <p class="product-price">$70</p>
+                    <label for="amount" id="quantity_for_keyboard1">Quantity :</label>
+                    <input type="text" class="amount" name="amount">
+                    <label>Available : <span class="quantity">200</span></label>
+                    <p class="product-detail">Made from Made from high-quality materials, this instrument boasts a sleek and <br>elegant design that is both visually stunning and comfortable to hold and play. </p>
+                    <br>
+                    <a class="order_now btn btn-primary">Order Now</a>
+                    <a class="add_to_cart btn btn-primary">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <div class="product-img">
+                    <img src="images/keyboard2.jpg" alt="keyboard 2" class="img-responsive img-curve">
+                </div>
+
+                <div class="product-desc">
+                    <h4 class="product-name"> M SANMERSEN Kids Music Piano Keyboard<br>, 61 Keys Piano Keyboard Toys with<br> Microphone Portable Mono Electronic Piano<br> Keyboard Teaching Piano Toy Gift for<br> Beginners Boys Girls Ages 3-12, Black  </h4>
+                    <p class="product-price">$50</p>
+                    <label for="amount" id="quantity_for_keyboard2">Quantity :</label>
+                    <input type="text" class="amount" name="amount">
+                    <label>Available : <span class="quantity">100</span></label>
+                    <p class="product-detail">The Ultimate Beginner's Piano: Our organ is perfect for anyone just starting out on their musical journey.<br> With an easy-to-use interface and helpful features like built-in tutorials and a metronome, you'll be playing<br> beautiful melodies in no time.</p>
+                    <br>
+                    <a class="order_now btn btn-primary">Order Now</a>
+                    <a class="add_to_cart btn btn-primary">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <div class="product-img">
+                    <img src="images/keyboard3.jpg" alt="keyboard 3" class="img-responsive img-curve">
+                </div>
+
+                <div class="product-desc">
+                    <h4 class="product-name"> RockJam 61 Key Touch Display Keyboard<br> Piano Kit with Digital Piano Bench, Electric<br> Piano Stand, Headphones Piano Note<br> Stickers, Sustain Pedal & Simply Piano<br> Lessons</h4>
+                    <p class="product-price">$65</p>
+                    <label for="amount" id="quantity_for_keyboard3">Quantity :</label>
+                    <input type="text" class="amount" name="amount">
+                    <label>Available : <span class="quantity">90</span></label>
+                    <p class="product-detail"> The Ultimate Beginner's Piano</p>
+                    <br>
+                    <a class="order_now btn btn-primary">Order Now</a>
+                    <a class="add_to_cart btn btn-primary">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <div class="product-img">
+                    <img src="images/keyboard4.jpg" alt="keyboard 4" class="img-responsive img-curve">
+                </div>
+
+                <div class="product-desc">
+                    <h4 class="product-name"> KEYBOARD PIANO,Electric Digital Piano 37<br> FULL-SIZE KEYS,Electronic Music Keyboard<br> For kids Beginners w/Microphone Dual<br> Speaker Stand,Headphone Audio-in,USB<br> Portable Keyboard Christmas Birthday Gifts</h4>
+                    <p class="product-price">$75</p>
+                    <label for="amount" id="Quantity_for_keyboard4">Quantity :</label>
+                    <input type="text" class="amount" name="amount">
+                    <label>Available : <span class="quantity">63</span></label>
+                    <p class="product-detail"> Made with best sound Quality.<br>Better sound experience. </p>
+                    <br>
+                    <a class="order_now btn btn-primary">Order Now</a>
+                    <a class="add_to_cart btn btn-primary">Add to cart</a>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- keyboard  products showcase end here-->
+
+        <!-- Guitars products showcase start here-->
+        <section class="products_list">
+            <div class="container">
+                <h2 id="Guitar" class="text-center"> Guitar <a href="#product_nav"><img src="images/up.png" alt="up icon"></a></h2>
+    
+                <div class="product-box">
+                    <div class="product-img">
+                        <img src="images/guitar1.jpg" alt="guitar 1" class="img-responsive img-curve">
+                    </div>
+    
+                    <div class="product-desc">
+                        <h4 class="product-name">Music Alley MA34-N Classical<br> Junior guitar </h4>
+                        <p class="product-price">$25</p>
+                        <label for="amount" id="guitar_1_quantity">Quantity :</label>
+                        <input type="text" class="amount" name="amount">
+                        <label>Available : <span class="quantity">170</span></label>
+                        <p class="product-detail">Crafted from high-quality materials<br>the perfect guitar for players of all levels </p>
+                        <br>
+                        <a class="order_now btn btn-primary">Order Now</a>
+                        <a class="add_to_cart btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+    
+                <div class="product-box">
+                    <div class="product-img">
+                        <img src="images/guitar2.jpg" alt="Guitar 2" class="img-responsive img-curve">
+                    </div>
+    
+                    <div class="product-desc">
+                        <h4 class="product-name">Enya Nova Go Carbon Fiber Acoustic Guitar<br> 1/2 Size Beginner Adult Travel Acustica<br> Guitarra w/Starter Bundle Kit of Colorful<br> Packaging, Acoustic Guitar Strap, Gig Bag,<br> Cleaning Cloth, String(Black)</h4>
+                        <p class="product-price">$35</p>
+                        <label for="amount" id="guitar_2_quantity">Quantity :</label>
+                        <input type="text" class="amount" name="amount">
+                        <label>Available : <span class="quantity">450</span></label>
+                        <p class="product-detail">The perfect guitar for players of all levels</p>
+                        <br>
+                        <a class="order_now btn btn-primary">Order Now</a>
+                        <a class="add_to_cart btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </section>
+        <!-- Guitar products showcase end here-->
+
+    <!-- Drums products showcase start here-->
+    <section class="products_list">
+        <div class="container">
+            <h2 id="Drums" class="text-center"> Drums <a href="#product_nav"><img src="images/up.png" alt="up icon"></a></h2>
+
+            <div class="product-box">
+                <div class="product-img">
+                    <img src="images/drum1.jpg" alt="Drum 1" class="img-responsive img-curve">
+                </div>
+
+                <div class="product-desc">
+                    <h4 class="product-name">Music Alley 3 Piece Kids Drum Set<br> with Throne, Cymbal, Pedal & <br>Drumsticks, Metallic Black,<br> (DBJK02-BK)</h4> 
+                    <p class="product-price">$299</p>
+                    <label for="amount" id="drum_2_quantity">Quantity :</label>
+                    <input type="text" class="amount" name="amount">
+                    <label>Available : <span class="quantity">100</span></label>
+                    <p class="product-detail">Made with finest materials to give a better Sound</p>
+                    <br>
+                    <a class="order_now btn btn-primary">Order Now</a>
+                    <a class="add_to_cart btn btn-primary">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <div class="product-img">
+                    <img src="images/drum2.jpg" alt="Drum 2" class="img-responsive img-curve">
+                </div>
+
+                <div class="product-desc">
+                    <h4 class="product-name">SLADE drum set, kids drum set, drum kit,<br> drum sets, drumset, kid drum set, drum<br> set for kids, kids drum sets, 3-Piece Kids<br> Drum Set, Blue </h4>
+                    <p class="product-price">$199</p>
+                    <label for="amount" id="drums_3_quantity">Quantity :</label>
+                    <input type="text" class="amount" name="amount">
+                    <label>Available : <span class="quantity">120</span></label>
+                    <p class="product-detail">Made with finest materials.<br>Recommended for Beginners. </p>
+                    <br>
+                    <a class="order_now btn btn-primary">Order Now</a>
+                    <a class="add_to_cart btn btn-primary">Add to cart</a>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- Drums products showcase end here-->
+
+    <!-- Trumpets products showcase start here-->
+        <section class="products_list">
+            <div class="container">
+                <h2 id="Trumpets" class="text-center">Trumpets<a href="#product_nav"><img src="images/up.png" alt="up icon"></a></h2>
+    
+                <div class="product-box">
+                    <div class="product-img">
+                        <img src="images/trump1.jpg" alt="trumpet 1" class="img-responsive img-curve">
+                    </div>
+    
+                    <div class="product-desc">
+                        <h4 class="product-name">Eastar Bb Standard Trumpet.</h4>
+                        <p class="product-price">$89</p>
+                        <label for="amount" id="trumpet_1_quantity">Quantity :</label>
+                        <input type="text" class="amount" name="amount">
+                        <label>Available : <span class="quantity">300</span></label>
+                        <p class="product-detail">Sleek design and excellent playability</p>
+                        <br>
+                        <a class="order_now btn btn-primary">Order Now</a>
+                        <a class="add_to_cart btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+
+                <div class="product-box">
+                    <div class="product-img">
+                        <img src="images/trump1.jpg" alt="trumpet 1" class="img-responsive img-curve">
+                    </div>
+    
+                    <div class="product-desc">
+                        <h4 class="product-name">Glory Brass Bb Trumpet with Pro<br> Case +Care Kit, Gold </h4>
+                        <p class="product-price">$89</p>
+                        <label for="amount" id="trumpet_1_quantity">Quantity :</label>
+                        <input type="text" class="amount" name="amount">
+                        <label>Available : <span class="quantity">300</span></label>
+                        <p class="product-detail">Sleek design and excellent playability</p>
+                        <br>
+                        <a class="order_now btn btn-primary">Order Now</a>
+                        <a class="add_to_cart btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+
+                <div class="product-box">
+                    <div class="product-img">
+                        <img src="images/trump2.jpg" alt="trumpet 2" class="img-responsive img-curve">
+                </div>
+    
+                    <div class="product-desc">
+                        <h4 class="product-name">Mendini By Cecilio Bb Trumpet - Trumpets<br> for Beginner or Advanced Student w/Case,<br> Cloth, Oil, Gloves - Brass Musical<br> Instruments For Kids & Adults</h4>
+                        <p class="product-price">$90</p>
+                        <label for="amount" id="trumpet_3_quantity">Quantity :</label>
+                        <input type="text" class="amount" name="amount">
+                        <label>Available : <span class="quantity">300</span></label>
+                        <p class="product-detail">Made with quality materials.Easy to use.</p>
+                        <br>
+                        <a class="order_now btn btn-primary">Order Now</a>
+                        <a class="add_to_cart btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+    
+               <div class="product-box">
+                    <div class="product-img">
+                        <img src="images/trump4.jpg" alt="trumpet 4" class="img-responsive img-curve">
+                    </div>
+    
+                    <div class="product-desc">
+                        <h4 class="product-name">EASTROCK Bb Trumpet Standard Trumpet<br> set with Carrying Case,Gloves, 7C <br>Mouthpiece and Cleaning Kit Bb Trumpet for<br> Student Beginner(Sea Blue) </h4>
+                        <p class="product-price">$50</p>
+                        <label for="amount" id="trumpet_4_quantity">Quantity :</label>
+                        <input type="text" class="amount" name="amount">
+                        <label>Available : <span class="quantity">12</span></label>
+                        <p class="product-detail">Badminton Kit Bags, with Extra Phone Compartment</p>
+                        <br>
+                        <a class="order_now btn btn-primary">Order Now</a>
+                        <a class="add_to_cart btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </section>                 
+    
+        <!-- Trumpet  products showcase end here-->
+
+        <!--starting cart section-->
+    <section class="cart">
+        <div class="cart_container">
+            <h2 id="shopping_cart" class="text-center">Shopping Cart<a href="#product_nav"><img src="images/up.png" alt="up icon"></a></h2>
+            <div class="cart-box">
+                <div class="cart-table">
+                    <table id="shopping_cart_table" class="cart-table">
+                        <tr>
+                            <th>Product Name</th>
+                            <th>Quantity</th>
+                            <th>Price for 1 piece</th>
+                            <th>Total Price</th>
+                            <th>Product Detail</th>
+                            <th>Place a Order</th>
+                            <th>Remove Item</th>
+                        </tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of cart section-->
+
+    <!-- starting personal details section -->
+    <section class="personal_details">
+        <div class="personal_details_container">
+            <h2 id="personal_info" class="text-center">Personal Details<a href="#product_nav"><img src="images/up.png" alt="up icon"></a></h2>
+            <div class="personal-details-box">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your First Name">
+                
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your Last Name">
+
+                    <label for="tel_no">Mobile No</label>
+                    <input type="text" id="tel_no" name="tel_no" placeholder="Your Mobile No eg : 0706754456">
+
+                    <label for="email">Email Address</label>
+                    <input type="text" id="email" name="email_address" placeholder="Your Email Address eg : someone@mail.com">
+
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                      <option value="Sri Lanka">Sri Lanka</option>
+                      <option value="India">India</option>
+                      <option value="Japan">Japan</option>
+                      <option value="Malaysia">Malaysia</option>
+                      <option value="New Zealand">New Zealand</option>
+                      <option value="Pakistan">Pakistan</option>
+                    </select>
+                    <button id="submit_btn">Place Order</button>
+            </div>
+        </div>
+    </section>
+    <!-- end of personal details section-->
+
+    <!-- start of invoice section-->
+    <section class="invoice">
+        <div class="invoice_container">
+            <h2 class="text-center">Invoice<a id="invoice_h2" href="#product_nav"><img src="images/up.png" alt="up icon"></a></h2>
+            <div class="invoice-box">
+            <label class="invoice_label"><span id="invoice_showcase"></span></label>
+            </div>
+        </div>
+    </section>
+    <!-- end of invoice section-->
+    
+
+    <!-- footer section starts here -->
+     <!--Footer-->
+     
+     <footer class="footer">
+        <div class="col-1">
+            <div id="title">
+                <br><br>
+                <h2>M sick.lk</h2>
+                <p>Music is life itself!</p>
+            </div>
+
+            <br>
+            <div id="address">
+                <h3>M sick.lk</h3>
+                <p>57, Ramakrishna Road</p>
+                <p>Colombo 06, Sri Lanka</p>
+            </div>
+        </div>
+        <div class="col-2">
+            <h2>Developer of the page</h2>
+            <a href="w1953846_Editor_page.html">Dumindu Induwrara Gamage</a>
+            <p>Contact dev</p>
+            <p>No:  0704293706</p>
+            <p>Email:gamagedumindui@gamail.com </p>
+        </div>
+        <div class="col-3">
+            <h2>Contact us by</h2>
+            <div class="fb">
+                <a href="student_2_img" class="fa fa-facebook"></a>
+                <p>Facebook</p>
+                
+            </div>
+            <div class="tw">
+                <a href="#" class="fa fa-twitter"></a>
+                <p>Twiter</p>
+            </div>
+            
+            <div class="in">
+                <a href="#" class="fa fa-instagram"></a>
+            <p>Instagram</p>
+            
+  
+            </div>
+            <br><br>
+            <h3 style="color: azure;"><a href="#header">Back to top</a></h3>
+        </div>
+    </footer>
+  
+</body>
+</html>    
+
+

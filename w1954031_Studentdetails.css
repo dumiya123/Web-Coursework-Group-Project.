@@ -1,0 +1,250 @@
+
+html{
+	scroll-behavior:smooth;
+}
+body{
+   /* background-color: rgba(16, 16, 16, 0.815);*/
+    background-image: url("Student03_imgs/p3.jpg");
+    margin: 0%;
+    background-size:cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;    /* fix the background. now background image is not going to scroll*/
+    background-position: center; 
+}
+
+
+/* Title */
+h1.heading {
+    color: rgb(0, 0, 0) ;
+    text-align: center ;
+    text-shadow: 2px 2px 0px rgb(224, 8, 240);
+    font-size: 70px;
+    letter-spacing: 10px;
+  }
+ h3.heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(37, 37, 33);
+    text-decoration: underline;
+    text-shadow: 1px 1px 0px#09f739cb;
+    text-align:center;
+    top: 75px;
+    position: relative;
+    font-size:20px;
+    width:100%;
+    letter-spacing:.2rem;
+  }
+  
+header {
+
+	width: 100%;
+	text-align: center;
+}
+
+.student_dtails{
+	  color:white;
+	  text-align: center;
+	 
+  }
+ .student{ 
+  position:relative;
+	  left:-10px;
+	  top:50px;
+ }
+  .members{
+       height: 1300px;
+       width:100%;
+       display: grid;
+       grid-template-columns: 50% 50%;
+  }
+  
+
+
+/* Student 1 */
+  .student1{
+    width: 365px;
+    height: 400px;
+    position: absolute;
+	  left:0px;
+	  top:600px;
+    cursor: pointer;
+    padding-left: 90px;
+  }
+  .student1:hover .dumindu{
+    height: 80%;
+  }
+  .student1 img {
+    display: block;
+    width: 300px;
+    height: 400px;
+    box-shadow: 10px 0px 50px #00ffff;
+  }
+  .dumindu{
+    width: 66%;
+    height: 0;
+    background: linear-gradient(rgba(200, 255, 0, 0.027),rgba(0, 255, 4, 0.077),rgba(0, 255, 72, 0.268),rgba(0, 213, 255, 0.542),rgba(47, 0, 255, 0.658),rgba(174, 0, 255, 0.866),rgb(254, 5, 179));
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.7s ease;
+  }
+  .dumindu h2{
+    color:white;
+    font-size: 20px;
+    /* border: 6px solid white; */
+    padding: 10px 10px;
+	position:absolute;
+	top:140px;
+	text-align:center;
+  }
+/* Student 1 */
+
+/* Student 2 */
+  .student2{
+    width: 365px;
+    height: 400px;
+    position: absolute;
+	  left:350px;
+	  top:600px;
+    cursor: pointer;
+    padding-left: 90px;
+  }
+  .student2:hover .avishka{
+    height: 80%;
+  }
+  .student2 img {
+    display: block;
+    width: 300px;
+    height: 400px;
+    box-shadow: 10px 0px 50px #00ffff;
+  }
+  .avishka{
+    width: 66%;
+    height: 0;
+    background: linear-gradient(rgba(200, 255, 0, 0.027),rgba(0, 255, 4, 0.077),rgba(0, 255, 72, 0.268),rgba(0, 213, 255, 0.542),rgba(47, 0, 255, 0.658),rgba(174, 0, 255, 0.866),rgb(254, 5, 179));
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.7s ease;
+  }
+  .avishka h2{
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px;
+    position:absolute;
+    top:140px;
+    text-align:center;
+  }
+/* Student 2 */
+
+/* Student 3 */
+  .student3{
+    width: 365px;
+    height: 400px;
+    position: absolute;
+    left:700px;
+	  top:600px;
+    cursor: pointer;
+    padding-left: 90px;
+  }
+  .student3:hover .manusha{
+    height: 80%;
+  }
+  .student3 img {
+    display: block;
+    width: 300px;
+    height: 400px;
+    box-shadow: 10px 0px 50px #00ffff;
+  
+  }
+  .manusha{
+    width: 66%;
+    height: 0;
+    background: linear-gradient(rgba(200, 255, 0, 0.027),rgba(0, 255, 4, 0.077),rgba(0, 255, 72, 0.268),rgba(0, 213, 255, 0.542),rgba(47, 0, 255, 0.658),rgba(174, 0, 255, 0.866),rgb(254, 5, 179));
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.7s ease;
+  }
+  .manusha h2{
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px;
+    position:absolute;
+    top:140px;
+    text-align:center;
+  }
+/* Student 3 */
+
+
+/* Student 4 */
+  .student4{
+    width: 365px;
+    height: 400px;
+    position: absolute;
+    left:1050px;
+    top:600px;
+    cursor: pointer;
+    padding-left: 90px;
+  }
+  .student4:hover .chathnuka{
+    height: 80%;
+  }
+  .student4 img {
+    display: block;
+    width: 300px;
+    height: 400px;
+    box-shadow: 10px 0px 50px #00ffff;
+  }
+  .chathnuka{
+    width: 66%;
+    height: 0;
+    background: linear-gradient(rgba(200, 255, 0, 0.027),rgba(0, 255, 4, 0.077),rgba(0, 255, 72, 0.268),rgba(0, 213, 255, 0.542),rgba(47, 0, 255, 0.658),rgba(174, 0, 255, 0.866),rgb(254, 5, 179));
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.7s ease;
+  }
+  .chathnuka h2{
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px;
+    position:absolute;
+    top:140px;
+    text-align:center;
+  }
+/* Student_4 */
+			  
+				  
+
+
+
+#button_editor {
+  
+  width: 86px;
+  margin-left: 6px;
+  background: #58ab00;
+  border-radius: 20px;
+  font-weight: bold;
+  color: blue;
+  opacity: 190;
+  transition: transform 0.5s, opacity 0.5s;
+}
+#button_editor:hover {
+    transform: scale(1.3);
+    opacity: 1;
+}
+#link {
+    text-decoration: none;
+}

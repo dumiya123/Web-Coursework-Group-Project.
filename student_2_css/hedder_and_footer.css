@@ -1,0 +1,183 @@
+header{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+.logo{
+    width: 60px;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+
+li a{
+    font-weight: 500;
+    font-size: 25px;
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding:0;
+}
+
+.nav_links li{
+    display:inline-block;
+    padding-left:20px;
+    padding-right: 20px;
+}
+
+.nav_links li a{
+   transition: all 0.3s ease 0;
+}
+
+.nav_links li a:hover{
+    color: rgb(51, 129, 246);
+ }
+ 
+  button :hover{
+    background-color: rgba(0, 136,169,0.8);
+
+  }
+  
+/*footer css*/
+  footer{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    
+}
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 10px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+    align-items: center;
+
+}
+.footer div{
+    text-align: center;
+}
+.col-2{
+    flex-grow: 2;
+}
+.footer div h2{
+    font-weight: 300 ;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.col-2 a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.col-2 h2{
+  color: brown;
+}
+.col-2 a:hover{
+  color: brown;
+}
+
+#address{
+  color: #55bf98;
+  align-items:left;
+}
+
+#title{
+  color: rgb(235, 71, 235);
+}
+#title p{
+  color: #2865e9;
+}
+
+
+
+
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    font-size: 100px;
+    /*width: 50px;
+    height: 44px;*/
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  /* Instagram */
+  .fa-instagram {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fb a{
+    font-size: 40px;
+    padding-left: 19px;
+    padding-right: 19px;
+  }
+  .tw a{
+    font-size: 40px;
+    padding-left: 12px;
+    padding-right: 12px;
+    
+  }
+  .in a{
+    font-size: 40px;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .col-3 a{
+    top:0;
+    
+  }
+  .fb{
+    display: inline-block;
+    padding-right: 12px;
+  }
+  .tw {
+    display: inline-block;
+    padding-right: 12px;
+    
+  }
+  .in{
+    display: inline-block;
+    padding-right: 12px;
+  }
+
+  .col-3 h3 a{
+    text-decoration: none;
+    color: #ffffff;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 10px;
+ }
+ .col-3 h3 a:hover{
+  background-color: rgb(255, 187, 16);
+  border-color: rgb(255, 102, 0);
+ }

@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+
+.head{
+    text-align: center;
+    background-color: rgba(201, 201, 250, 0.87);
+}
+
+.my{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.mypic{
+    display: flex;
+    justify-content: center;
+}
+
+.name{
+    color: rgb(0, 41, 27);
+    text-align: center;
+}
+
+.details{
+    text-align: center;
+    font-size: large;
+    color: rgb(87, 87, 1);
+}
+
+.details2{
+    text-align: center;
+    font-size: x-large;
+    color: rgb(4, 4, 137);
+}
+
+.pages{
+    text-align: center;
+    font-size: x-large;
+    color: rgb(147, 4, 4);
+}
+
+.des1,.lnk1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: rgb(217, 237, 255);
+}

@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="student4_css/imagegallery.css">
+    <link rel="icon" type="image/png" href="logo_img/logo.png">
+    <link rel="stylesheet" href="student4_css/hedder_and_footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!--link for the fb,tw,in icons-->
+</head>
+<body id="bod">
+
+    <!-- nevigation bar -->
+    <header id="header">
+        <img class="logo" src="logo_img/logo.png" alt="logo">
+        <h1 style="color: aliceblue; font-size: 35px; padding-right: 300px;letter-spacing: .3rem;font-family:'Times New Roman', Times, serif;" >M sick.lk</h1>
+
+        <nav>
+            <ul class="nav_links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="comments.html">Comments</a></li>
+                <li><a href="w1953846_buy_products.html">Shop</a></li>
+                <li><a href="w1954031_Quiz.html">Quiz</a></li>
+                <li><a href="sitemap.html">Sitemap</a></li>
+                <li><a href="imagegallery.html">Gallery</a></li>
+                <li><a href="w1954031_Studentdetails.html">About us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- image-Gallery -->
+    <div id="container1">
+
+        <div class="banner1">
+            <img src="Gallery_Images/fotor_2023-4-3_11_36_4.jpg" id="banner1" class="img" alt="">
+        </div>
+        
+        <div class="banner2">
+             <img src="Gallery_Images/fotor_2023-4-3_11_20_56.jpg" id="banner2" class="img" alt="">
+        </div>
+
+        <div class="banner3">
+             <img  src="Gallery_Images/fotor_2023-4-3_11_27_10.jpg" id="banner3" class="img" alt="">
+        </div>
+        
+        <div class="banner4">
+             <img  src="Gallery_Images/fotor_2023-4-3_11_42_17.jpg" id="banner4" class="img" alt="">
+        </div>
+
+    </div>
+    <div class="cmd">
+
+    </div>
+    
+    <div class="container">
+        <div class="btns">
+            <button class="bt1" onclick="fontsize1()">A</button>
+            <button class="bt2" onclick="fontsize2()">A</button>
+            <button class="bt3" onclick="fontsize3()">A</button>
+        </div>
+    
+        <div class="colrs">
+            <button class="colrrandom" onclick="randomtheme()">R</button>
+            <button class="colr1" onclick="theme1()"></button>
+            <button class="colr2" onclick="theme2()"></button>
+            <button class="colr3" onclick="theme3()"></button>
+        </div>
+        
+    
+        <p id="quote">Music is like a dream. One that I cannot hear.</p>
+    
+        <h1 class="categary" id="cat">Artists</h1>
+        <br>
+        
+        <div class="artists"> 
+    
+            <div class="images">
+                <div class="imgarea">
+                    <img class="pic" src="Gallery_Images/371287_v9_bc.jpg" alt="" onclick="openModal();currentSlide(1)">
+                </div>
+                <div class="description">
+                    <h3>Drake</h3>
+                </div>
+            </div>
+    
+            <div class="images">
+                <div class="imgarea">
+                    <img class="pic" src="Gallery_Images/images.jpeg" alt="" onclick="openModal();currentSlide(2)">
+                </div>
+                <div class="description">
+                    <h3>Shakira</h3>
+                </div>
+            </div>
+    
+            <div class="images">
+                <div class="imgarea">
+                    <img class="pic" src="Gallery_Images/5fd096a1220c57.16741549.png" alt="" onclick="openModal();currentSlide(3)">
+                </div>
+                <div class="description">
+                    <h3>Justin Bieber</h3>
+                </div>
+            </div>
+    
+            <div class="images">
+                <div class="imgarea">
+                    <img class="pic" src="Gallery_Images/images_harry.jpeg" alt="" onclick="openModal();currentSlide(4)">
+                </div>
+                <div class="description">
+                    <h3>Harry Styles</h3>
+                </div>
+            </div>
+    
+        </div>
+    
+            <p class="py"></p>
+    
+        <div class="artists">
+    
+            <div class="images">
+                <div class="imgarea">
+                    <img class="pic" src="Gallery_Images/ed_sheeran.jpeg" alt="" onclick="openModal();currentSlide(5)">
+                </div>
+                <div class="description">
+                    <h3>Ed Sheeran</h3>
+                </div>
+            </div>
+    
+            <div class="images">
+                <div class="imgarea">
+                    <img class="pic" src="Gallery_Images/licensed-image.jpeg" alt="" onclick="openModal();currentSlide(6)">
+                </div>
+                <div class="description">
+                    <h3>Anne-Marie</h3>
+                </div>
+            </div>
+    
+            <div class="images">
+                <div class="imgarea">
+                    <img class="pic" src="Gallery_Images/salena.jpeg" alt="" onclick="openModal();currentSlide(7)">
+                </div>
+                <div class="description">
+                    <h3>Selena Gomez</h3>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="imgarea">
+                    <img class="pic" src="Gallery_Images/arash-image.jpeg" alt="" onclick="openModal();currentSlide(8)">
+                </div>
+                <div class="description">
+                    <h3>Arash</h3>
+                </div>
+            </div>
+    
+        </div>
+    
+        <br>
+        <h1 class="categary" id="cat2">Instruments</h1>
+        <br>
+    
+        <div class="artists"> 
+    
+            <div class="images">
+                <div class="imgarea">
+                    <img class="pic" src="Gallery_Images/edgar-1TiyIFuIZdg-unsplash.jpg" alt="" onclick="openModal();currentSlide(9)">
+                </div>
+                <div class="description">
+                    <h3>Guitar</h3>
+                </div>
+            </div>
+    
+            <div class="images">
+                <div class="imgarea">
+                    <img class="pic" src="Gallery_Images/ethan-wnU4CcoB8kI-unsplash.jpg" alt="" onclick="openModal();currentSlide(10)">
+                </div>
+                <div class="description">
+                    <h3>Violin</h3>
+                </div>
+            </div>
+    
+            <div class="images">
+                <div class="imgarea">
+                    <img class="pic" src="Gallery_Images/miguel-dominguez-5yDL5rOKrUM-unsplash.jpg" alt="" onclick="openModal();currentSlide(11)">
+                </div>
+                <div class="description">
+                    <h3>Piano</h3>
+                </div>
+            </div>
+    
+            <div class="images">
+                <div class="imgarea">
+                    <img class="pic" src="Gallery_Images/hal-gatewood-3j45Gy-WkyA-unsplash.jpg" alt="" onclick="openModal();currentSlide(12)">
+                </div>
+                <div class="description">
+                    <h3>Trumpet</h3>
+                </div>
+            </div>
+    
+        </div>
+    
+            <p class="py"></p>
+    
+        <div class="artists">
+    
+            <div class="images">
+                <div class="imgarea">
+                    <img class="pic" src="Gallery_Images/jason-pofahl-_YPuAuP5btc-unsplash.jpg" alt="" onclick="openModal();currentSlide(13)">
+                </div>
+                <div class="description">
+                    <h3>Drum set</h3>
+                </div>
+            </div>
+    
+            <div class="images">
+                <div class="imgarea">
+                    <img class="pic" src="Gallery_Images/ab67616d00001e020fb48efca06e5ec700238aac.jpeg" alt="" onclick="openModal();currentSlide(14)">
+                </div>
+                <div class="description">
+                    <h3>Flute</h3>
+                </div>
+            </div>
+    
+            <div class="images">
+                <div class="imgarea">
+                    <img class="pic" src="Gallery_Images/wim-arys-Bp0Vy5zlY-c-unsplash.jpg" alt="" onclick="openModal();currentSlide(15)">
+                </div>
+                <div class="description">
+                    <h3>Saxophone</h3>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="imgarea">
+                    <img class="pic" src="Gallery_Images/alexander-grigoryev-_yVLE-uYNIw-unsplash.jpg" alt="" onclick="openModal();currentSlide(16)">
+                </div>
+                <div class="description">
+                    <h3>Accordion</h3>
+                </div>
+            </div>
+    
+        </div>
+
+
+        <!-- light box -->
+        <div id="myModal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+          
+                <div class="mySlides">
+                    <img src="Gallery_Images/371287_v9_bc.jpg" alt="" class="pic2">
+                    <p class="desc">Drake</p>
+                    <p class="desc2">Drake was born on October 24, 1986, in Toronto, Canada. He is a rapper, singer, songwriter, and actor from Canada. He first became well-known as an actor on the show "Degrassi: The Generation to Come." However, he switched over to music, and in 2006, he released his first mixtape, "Room for Improvement." With the 2009 release of his mixtape "So Far Gone," he received a lot of attention. Drake's music seamlessly blends hip-hop, R&B, and pop genres, and he is known for his distinctive singing and rapping style. He has put out a number of successful albums, including "Take Care," "Nothing Was the Same," "Views," and "Scorpion," all of which have been well-received by critics and have topped the charts. Drake has won four Grammy Awards, among other accolades. His own record label, OVO Sound, and a partnership with Nike's Jordan brand are two other entrepreneurial endeavors he is involved in. With a huge global following and a legacy that will undoubtedly endure for years to come, Drake is widely regarded as one of the most influential artists in the music industry today.</p>
+                </div>
+    
+                <div class="mySlides">
+                    <img src="Gallery_Images/images.jpeg" alt="" class="pic2">
+                    <p class="desc">Shakira</p>
+                    <p class="desc2">Shakira is a Colombian singer, dancer, songwriter, and record producer who was born in Barranquilla, Colombia, on February 2, 1977. She started out as a musician when she was young, and in 2001, she released her fifth studio album, "Laundry Service," which made her famous all over the world. Shakira is renowned for her dynamic performances, diverse musical tastes, and distinctive voice. She has won seven Billboard Music Awards, three Grammy Awards, twelve Latin Grammy Awards, and more than 70 million records sold worldwide. She is also well-known for her charitable work, particularly in the areas of poverty alleviation and education. Shakira has made appearances as a judge on the reality singing competition shows "The Voice" in the United States and "La Voz" in Spain in addition to her music career. Generally, Shakira's effect on the music business and mainstream society couldn't possibly be more significant, and she is broadly viewed as one of the most compelling Latin craftsmen ever.</p>
+                </div>
+    
+                <div class="mySlides">
+                    <img src="Gallery_Images/5fd096a1220c57.16741549.png" alt="" class="pic2">
+                    <p class="desc">Justin Bieber</p>
+                    <p class="desc2">Born on March 1, 1994, in London, Ontario, Canada, Justin Bieber is a singer, songwriter, and actor. In 2010, he released his debut album, "My World 2.0," which had hit singles like "Baby" and "Somebody to Love" and made him famous all over the world. The pop and R&B influences in Justin Bieber's music are well-known, and he has since released several successful albums, such as "Believe" and "Purpose." He has received numerous honors, including numerous American Music Awards and a Grammy Award. Additionally, Bieber is well-known for his charitable work, particularly in the fields of children's causes and mental health. Bieber has acted in a number of films and television shows in addition to his music career. Among these is the documentary "Justin Bieber: "Never Say Never" and "CSI: Miami" Investigation of a Crime Scene." Overall, Bieber's influence on music and popular culture cannot be overstated, and he continues to be one of the world's most successful and well-known artists.</p>
+                </div>
+    
+                <div class="mySlides">
+                    <img src="Gallery_Images/images_harry.jpeg" alt="" class="pic2">
+                    <p class="desc">Harry Styles</p>
+                    <p class="desc2">Harry Styles was born on February 1, 1994, in Redditch, England, and is a British singer, songwriter, and actor. He became famous as a member of One Direction, a boy band that formed in 2010 on the British singing competition show "The X Factor." With sales of over 70 million records worldwide, One Direction went on to become one of the most successful boy bands ever. Styles launched a successful solo career in 2016 when the group went on hiatus. In 2017, he released his debut album, "Harry Styles," which showcased his influences from rock, pop, and folk music. After that, he put out two more albums, "Fine Line" and "Harry's House," which were both well-received by critics. Styles has won a few honors, including a Brit Grant and an American Music Grant. Notwithstanding his music profession, Styles has likewise showed up in a few movies, including "Dunkirk" and "Don't Stress Dear." Styles is a major force in the music industry today and is well-known for his distinctive voice, fashion sense, and undeniable talent.</p>
+                </div>
+    
+                <div class="mySlides">
+                    <img src="Gallery_Images/ed_sheeran.jpeg" alt="" class="pic2">
+                    <p class="desc">Ed Sheeran</p>
+                    <p class="desc2">Ed Sheeran is an English artist, lyricist, and record maker, brought into the world on February 17, 1991, in Halifax, Britain. In 2011, he released his debut album, "+ (Plus)," which had hit singles like "The A Team" and "Lego House" and made him famous. Sheeran's music has a reputation for being influenced by folk-pop, and he has since released several successful albums, such as "x (Multiply)" and "(Divide)." He has won four Grammy Awards and six Brit Awards, in addition to selling more than 150 million records worldwide. Sheeran is also well-known for his charitable work, particularly in the fields of health care and education. Sheeran has appeared in a number of movies and television shows in addition to his music career, including "Bridget Jones's Baby" and "Game of Thrones." Generally, Sheeran's effect on the music business and mainstream society couldn't possibly be more significant, and he stays perhaps of the best and adored craftsman in this present reality.</p>
+                </div>
+    
+                <div class="mySlides">
+                    <img src="Gallery_Images/licensed-image.jpeg" alt="" class="pic2">
+                    <p class="desc">Anne-Marie</p>
+                    <p class="desc2">Anne-Marie is an English singer and songwriter who was born in East Tilbury, Essex, on April 7, 1991. In 2016, she became well-known thanks to the commercial success of her debut single, "Alarm." Anne-Marie's music is known for its pop and R&B impacts, and she has since delivered a few effective singles and her presentation collection "Express Your Genuine thoughts" in 2018. Her music has been well-received by both fans and critics, and she has collaborated with Clean Bandit and Marshmello. Anne-Marie has won a Brit Award and an MTV Europe Music Award, among other accolades. In addition, she is well-known for her work advocating for mental health issues and has openly discussed her difficulties with anxiety and panic attacks. Overall, Anne-Marie is a respected and adored figure in the entertainment industry thanks to her advocacy work and influence on the music industry.</p>
+                </div>
+    
+                <div class="mySlides">
+                    <img src="Gallery_Images/salena.jpeg" alt="" class="pic2">
+                    <p class="desc">Selena Gomez</p>
+                    <p class="desc2">Selena Gomez was born on July 22, 1992, in Grand Prairie, Texas. She is an American singer, actress, and producer. She became famous for her role in the Disney Channel show "Wizards of Waverly Place," and since then, she has become a popular musician and actress. Gomez has released a number of successful albums, including "Stars Dance" and "Rare," and her music is well-known for its pop and dance-pop influences. She has won numerous awards, including an American Music Award and a Billboard Women in Music Award, and has sold more than 140 million records worldwide. Gomez is also well-known for her charitable work, particularly in the fields of children's causes and mental health. Gomez has appeared in a number of films and television shows in addition to her music career, such as "Spring Breakers" and "The Dead Don't Die." Gomez has become a respected and influential figure in the entertainment industry as a result of her advocacy work and influence over popular culture.</p>
+                </div>
+    
+                <div class="mySlides">
+                    <img src="Gallery_Images/arash-image.jpeg" alt="" class="pic2">
+                    <p class="desc">Arash</p>
+                    <p class="desc2">The Iranian-Swedish singer, songwriter, and record producer Arash Labaf, better known by his stage name Arash, was born on April 23, 1977, in Tehran, Iran. In 2005, he released his self-titled debut album, which featured the hit singles "Temptation" and "Boro Boro." This album propelled him to fame. Since then, Arash has released several successful albums, including "Donya" and "Superman," which are known for their fusion of Middle Eastern and Western sounds. His music has been well-received by audiences all over the world, and he has collaborated with a number of artists, including T-Pain and Sean Paul. Arash has been honored with a number of accolades, including the MTV Europe Music Award and the World Music Award. Arash is a successful businessman who runs his own record label and fashion line in addition to his music career. Arash has become a respected and influential figure in the entertainment industry as a result of his entrepreneurial spirit and influence on the music industry.</p>
+                </div>
+    
+                <div class="mySlides">
+                    <img src="Gallery_Images/edgar-1TiyIFuIZdg-unsplash.jpg" alt="" class="pic2">
+                    <p class="desc">Guitar</p>
+                    <p class="desc2">The guitar is a musical instrument with strings that is played by picking it up or strumming it with your fingers or a pick. The guitar can be found in a wide variety of musical styles and genres, making it one of the most widely used and adaptable instruments in the world. The cutting edge guitar has its foundations in Spain, where the traditional guitar arose in the sixteenth 100 years. The acoustic guitar, electric guitar, and bass guitar are just a few of the styles and designs that have emerged from the instrument over time. Over the past century, the guitar has been a significant influence on popular music and has been used in numerous compositions. Jimmy Page, Eric Clapton, Eddie Van Halen, and Jimi Hendrix are just a few of the most well-known guitarists. In general, the guitar is a well-known and adored musical instrument that has had a lasting impact on music and popular culture.</p>
+                </div>
+    
+                <div class="mySlides">
+                    <img src="Gallery_Images/ethan-wnU4CcoB8kI-unsplash.jpg" alt="" class="pic2">
+                    <p class="desc">Violin</p>
+                    <p class="desc2">A bow is used to play the violin, a musical instrument with strings. It is a common instrument in folk and popular music as well as one of the most versatile instruments in classical music. The modern violin emerged in Italy in the 16th century. Its ancestors were there. Since then, it has undergone numerous design and construction improvements, resulting in a variety of designs and variations, including the viola and cello. Depending on the playing technique and the music being played, the violin produces a distinctive sound that can be warm and lyrical or bright and lively. The instrument is a staple of orchestral and chamber music and has been used in numerous compositions. Joshua Bell, Niccolo Paganini, Itzhak Perlman, and others are among the most well-known violinists. In general, the violin is a prized and adored instrument that has significantly shaped the music industry.</p>
+                </div>
+    
+                <div class="mySlides">
+                    <img src="Gallery_Images/miguel-dominguez-5yDL5rOKrUM-unsplash.jpg" alt="" class="pic2">
+                    <p class="desc">Piano</p>
+                    <p class="desc2">The piano is a keyboard instrument in which hammers strike strings to create sound. Because of its adaptability, expressiveness, and wide range of dynamic possibilities, it is one of the most popular and widely used musical instruments in the world. The modern piano originated in Italy at the beginning of the 18th century. Since then, it has undergone numerous design and construction improvements, which has led to a variety of designs and variations, including the grand piano, upright piano, and digital piano. The piano is a common instrument in jazz, popular music, and classical music. It has been used in numerous musical compositions. Franz Liszt, Wolfgang Amadeus Mozart, Ludwig van Beethoven, and Duke Ellington are among the most well-known pianists. The piano is a beloved and highly regarded instrument that has significantly influenced the music industry.</p>
+                </div>
+    
+                <div class="mySlides">
+                    <img src="Gallery_Images/hal-gatewood-3j45Gy-WkyA-unsplash.jpg" alt="" class="pic2">
+                    <p class="desc">Trumpet</p>
+                    <p class="desc2">The trumpet is a metal instrument that is played by blowing air through a mouthpiece and pushing down on valves to change the pitch of the sound. It has been used in classical, jazz, and popular music, among other musical genres, and is one of the oldest instruments in existence. The modern trumpet was developed from earlier wind instruments in Europe during the 14th and 15th centuries. The design and construction of the instrument changed a lot over time, resulting in a variety of styles and variations, including the cornet and flugelhorn. The trumpet has been used in numerous musical compositions and has a bright, powerful sound that can be expressive as well as virtuosic. The absolute most renowned trumpet players incorporate Louis Armstrong, Miles Davis, and Woozy Gillespie, among others. The trumpet is a beloved and highly regarded instrument that has significantly influenced the music industry.</p>
+                </div>
+    
+                <div class="mySlides">
+                    <img src="Gallery_Images/jason-pofahl-_YPuAuP5btc-unsplash.jpg" alt="" class="pic2">
+                    <p class="desc">Drum Set</p>
+                    <p class="desc2">A drum set—also called a drum kit—is a set of percussion instruments that a drummer plays. It typically includes, among other instruments, a bass drum, snare drum, tom-toms, hi-hat cymbal, ride cymbal, and crash cymbal. Since the beginning of the 20th century, the drum set has been an essential component of contemporary music. It is utilized in a wide variety of musical styles, including rock, pop, jazz, and blues. The modern drum set is the result of combining a number of percussion instruments, such as the bass drum, snare drum, and cymbals. Over time, it has undergone numerous design and construction advancements. The drum set is renowned for its capacity for dynamic and expressive playing as well as its capacity to provide a musical performance with rhythm and drive. Neil Peart, Buddy Rich, and Ringo Starr are among the most well-known drummers. In general, the drum set is an indispensable and well-known instrument that has forever changed the music industry.</p>
+                </div>
+    
+                <div class="mySlides">
+                    <img src="Gallery_Images/ab67616d00001e020fb48efca06e5ec700238aac.jpeg" alt="" class="pic2">
+                    <p class="desc">Flute</p>
+                    <p class="desc2">The flute is a type of woodwind instrument that is played by blowing air across a hole on the end. It is quite possibly of the most seasoned instrument on the planet and has been utilized in many melodic styles, including traditional, society, and conventional music. The modern flute was developed from earlier wind instruments in Europe in the 16th century. The design and construction of the instrument changed a lot over time, resulting in a variety of styles and variations, including the piccolo and bass flute. The flute has an extraordinary and fragile sound that can be both expressive and virtuosic, and it has been utilized in endless melodic pieces. James Galway, Jean-Pierre Rampal, and Emmanuel Pahud are among the most well-known flute players. The flute is a beloved and highly regarded instrument that has significantly influenced the music industry.</p>
+                </div>
+    
+                <div class="mySlides">
+                    <img src="Gallery_Images/wim-arys-Bp0Vy5zlY-c-unsplash.jpg" alt="" class="pic2">
+                    <p class="desc">Saxophone</p>
+                    <p class="desc2">The saxophone is a versatile woodwind instrument played by blowing air into a mouthpiece through a reed. Adolphe Sax came up with it in the middle of the 19th century, and it has since become a common instrument in jazz, classical, and popular music. The soprano, alto, tenor, and baritone saxophones are all variations of the saxophone, each with its own range and sound. One of the most widely used instruments in contemporary music is the saxophone because of its distinctive sound and expressive range. It is used in jazz, blues, rock, pop, and classical music, among other genres, and numerous musicians and bands have used it. Charlie Parker, John Coltrane, and Stan Getz are among the most well-known saxophonists. In general, the saxophone is a beloved and highly regarded instrument that has had a significant impact on the development of the musical genre.</p>
+                </div>
+    
+                <div class="mySlides">
+                    <img src="Gallery_Images/alexander-grigoryev-_yVLE-uYNIw-unsplash.jpg" alt="" class="pic2">
+                    <p class="desc">Accordion</p>
+                    <p class="desc2">The accordion is a free-reed instrument that is played by squeezing buttons or keys while at the same time opening and shutting the instrument's roars. It is a versatile instrument that can be played in folk, classical, and popular music, among other styles. The accordion has been around for a long time, with the earliest examples appearing in the early 19th century. Reeds, bellows, and buttons or keys are just a few of the instrument's many parts. The reeds vibrate and produce sound when air is pushed into the bellows and squeezed. The accordion is used in a wide range of musical genres all over the world, and its distinctive sound is expressive and adaptable. Yann Tiersen, Flaco Jiménez, and Astor Piazzolla are among the most well-known accordion players. The accordion is a beloved and highly regarded instrument that has significantly influenced the music industry.</p>
+                </div>
+            
+            </div>
+    
+        </div>
+    </div>
+
+    
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="col-1">
+            <div id="title">
+                <h2>M sick.lk</h2>
+                <p>Music is life itself!</p>
+            </div>
+
+            <br>
+            <div id="address">
+                <h3>M sick.lk</h3>
+                <p>57, Ramakrishna Road</p>
+                <p>Colombo 06, Sri Lanka</p>
+            </div>
+        </div>
+        <div class="col-2">
+            <h2>Developer of the page</h2>
+            <a href="student4_editor.html">Chathnuka Mintharu</a>
+            <p>Contact dev</p>
+            <p>No: 077-9399500</p>
+            <p>email:chathnuka@gmail.com</p>
+        </div>
+        <div class="col-3">
+            <h2>Contact us by</h2>
+            <div class="fb">
+                <a href="#" class="fa fa-facebook"></a>
+                <p>Facebook</p>
+                
+            </div>
+            <div class="tw">
+                <a href="#" class="fa fa-twitter"></a>
+                <p>Twiter</p>
+            </div>
+            
+            <div class="in">
+                <a href="#" class="fa fa-instagram"></a>
+            <p>Instagram</p>
+  
+            </div>
+            <h3 style="color: azure;"><a href="#header">Back to top</a></h3>
+        </div>
+    </footer>
+
+    
+    <script src="student4_js/imagegallery.js"></script>
+
+</body>
+
+</html>
